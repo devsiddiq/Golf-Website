@@ -1,0 +1,3369 @@
+
+/*TABLE OF CONTENTS*/
+/*=====================
+01. golfia Header Top Menu Area Css
+02. golfia Nav Menu Area Css 
+03. golfia Hero Area Css
+05. golfia Service Area css
+06. golfia About Area Css
+07. golfia Feature Area Css
+08. golfia Video Area Css
+08. golfia Courses Area Css
+08. golfia Counter Area Css
+09. golfia Testimonial Area Css
+10. golfia Blog Area Css
+11. golfia footer Area Css
+11. golfia footer End Area Css
+21. golfia Prossess Ber Css
+
+22. golfia Scrollup Section
+23. golfia Bounce Animation Css 
+24. golfia Animation Dance
+25. golfia Breadcumb Area Css
+26. golfia abouts_areas Css
+27. golfia Feture-Area Css
+28. golfia Pricing Section Css
+29. golfia Web Development Section CSS
+30. golfia Contact  US Css
+31. golfia Blog Sidber Widget CSS
+32. golfia Case Study Details Css
+33. golfia Search Box Css
+34. golfia Loader Css
+=======================*/
+
+/*================================
+<--  golfia Nav Menu Area Css -->
+==================================*/
+.golfia_nav_manu {
+  transition: 0.5s;
+  z-index: 2;
+  position: relative;
+  padding: 0 70px 0;
+  margin-bottom: -148px;
+  background: transparent;
+}
+.row.golfia-bg {
+  background: #fff;
+  margin-top: 50px;
+}
+.sticky {
+  left: 0;
+  margin: auto;
+  position: fixed !important;
+  top: 0;
+  width: 100%;
+  -webkit-box-shadow: 0 2px 5px -2px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 5px -2px rgba(0, 0, 0, 0.1);
+  background: transparent;
+  transition: 0.5s !important;
+  z-index: 922;
+  -webkit-animation: 300ms running fadeInDown;
+  animation: 500ms running fadeInUp;
+  animation-name: slideInDown;
+}
+
+.sticky .row.golfia-bg {
+  background: #fff;
+  margin-top: 0;
+}
+
+.sticky .header-button a i {
+  color: #fff;
+}
+.sticky .header-button a:before {
+  background: #7fd1a6;
+}
+.sticky .header-button a:hover {
+  color: #000;
+}
+.sticky .header-button a:hover i {
+  color: #000;
+}
+/* golfia Menu Css*/
+nav.golfia_menu {
+  position: relative;
+  z-index: 1;
+  float: right;
+}
+.golfia_menu ul {
+  list-style: none;
+  display: inline-block;
+}
+
+.golfia_menu > ul > li {
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+}
+
+.golfia_menu > ul > li > a {
+  font-size: 17px;
+  display: block;
+  margin: 35px 15px;
+  transition: 0.5s;
+  color: #101210;
+  font-weight: 500;
+}
+.golfia_menu > ul > li > a > i {
+  margin-left: 5px;
+}
+
+.golfia_menu > ul > li > a:hover {
+  color: #0e7930;
+}
+.golfia_menu > ul > li:hover {
+  color: #2674f0;
+}
+/*menu button*/
+
+.header-button {
+  display: inline-block;
+}
+.header-button a {
+  font-size: 16px;
+  padding: 11px 18px;
+  font-weight: 500;
+  color: #fff;
+  background: #0e7930;
+  border-left: 4px solid #7fd1a6;
+  border-right: 4px solid #7fd1a6;
+  border-radius: 5px;
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  transition: 0.5s;
+  margin-left: 20px;
+}
+.header-button a:before {
+  position: absolute;
+  content: "";
+  z-index: -1;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 0;
+  background: #7fd1a6;
+  transform: scale(0);
+  transition: 0.5s;
+}
+
+.header-button a i {
+  padding-right: 5px;
+  position: relative;
+  top: 3px;
+  color: #fff;
+  transition: 0.5s;
+}
+.header-button a:hover:before {
+  transform: scale(1);
+}
+
+.header-button a:hover {
+  color: #000;
+}
+.header-button a:hover i {
+  color: #000;
+}
+
+/*Style Two Nav Menu*/
+
+.style-two.golfia_nav_manu {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.10196078431372549);
+}
+
+.style-two .golfia_menu > ul > li > a {
+  color: #fff;
+}
+
+/*style two btn*/
+
+.style-two .header-button a {
+  background: rgba(16, 18, 16, 0);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.style-two .header-button a i {
+  color: #bbf737;
+}
+
+/*** Sub Menu Style 
+==========================***/
+
+.golfia_menu ul .sub-menu {
+  position: absolute;
+  left: 0;
+  top: 130%;
+  width: 217px;
+  text-align: left;
+  background: #fff;
+  margin: 0;
+  z-index: 1;
+  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+  transition: 0.5s;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.golfia_menu ul li:hover > .sub-menu {
+  visibility: visible;
+  top: 100%;
+  opacity: 1;
+}
+
+.golfia_menu ul .sub-menu li {
+  position: relative;
+}
+
+.golfia_menu ul .sub-menu li a {
+  display: block;
+  padding: 12px 20px;
+  margin: 0;
+  line-height: 1.3;
+  letter-spacing: normal;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: capitalize;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+  visibility: inherit !important;
+  color: #101210 !important;
+}
+
+.golfia_menu ul .sub-menu li:hover > a,
+.golfia_menu ul .sub-menu .sub-menu li:hover > a,
+.golfia_menu ul .sub-menu .sub-menu .sub-menu li:hover > a,
+.golfia_menu ul .sub-menu .sub-menu .sub-menu .sub-menu li:hover > a {
+  background: #0e7930;
+  color: #fff !important;
+}
+
+/* sub menu 2 
+=================*/
+
+.golfia_menu ul .sub-menu .sub-menu {
+  left: 100%;
+  top: 130%;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.golfia_menu ul .sub-menu li:hover > .sub-menu {
+  opacity: 1;
+  visibility: visible;
+  top: 0%;
+}
+
+/* sub menu 3 
+==================*/
+
+.golfia_menu ul .sub-menu .sub-menu li {
+  position: relative;
+}
+
+.golfia_menu ul .sub-menu .sub-menu .sub-menu {
+  right: 100%;
+  left: auto;
+  top: 130%;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.golfia_menu ul .sub-menu .sub-menu li:hover > .sub-menu {
+  opacity: 1;
+  visibility: visible;
+  top: 0%;
+}
+
+ul.sub-menu li a span {
+  background: #ffde5d;
+  padding: 5px 10px;
+  color: #fff;
+  opacity: 1;
+  font-family: "Fira Sans";
+  border-radius: 2px;
+  margin-left: 5px;
+  transition: 0.5s;
+}
+
+ul.sub-menu li:hover a span {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+/* sub menu 4 
+====================*/
+
+.golfia_menu ul .sub-menu .sub-menu .sub-menu li {
+  position: relative;
+}
+
+.golfia_menu ul .sub-menu .sub-menu .sub-menu li:hover > .sub-menu {
+  opacity: 1;
+  visibility: visible;
+  top: 0%;
+}
+
+.golfia_menu li a:hover:before {
+  width: 101%;
+}
+
+.golfia_nav_manu.sticky .logo_img {
+  display: none;
+}
+
+.main_sticky {
+  display: none;
+}
+
+.golfia_nav_manu.sticky .main_sticky {
+  display: inherit;
+}
+
+.mobile-menu.mean-container {
+  overflow: hidden;
+}
+
+/***======================================================
+<--Start golfia hero area Css -->
+======================================================***/
+.hero-area {
+  background: url(../images/hero/hero.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 900px;
+}
+.hero-content {
+  position: relative;
+  top: 62px;
+}
+.hero-title h5 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.hero-title h1 {
+  color: #fff;
+  font-size: 60px;
+  line-height: 55px;
+  margin: 0;
+}
+.hero-desc p {
+  color: #fff;
+  width: 38%;
+  margin: 0;
+  padding: 25px 0 27px;
+}
+.golf-button a {
+  display: inline-block;
+  background: #0e7930;
+  border-left: 4px solid #7fd1a6;
+  border-right: 4px solid #7fd1a6;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 18px;
+  transition: 0.5s;
+  position: relative;
+  z-index: 1;
+}
+.golf-button a i {
+  margin-left: 10px;
+  top: 2px;
+  position: relative;
+}
+.golf-button a:hover {
+  color: #222222;
+}
+.golf-button a:before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background: #7fd1a6;
+  transition: 0.5s;
+  z-index: -1;
+  transform: scale(0);
+}
+.golf-button a:hover:before {
+  width: 52%;
+  transform: scale(1);
+}
+
+.golf-button a:after {
+  position: absolute;
+  content: "";
+  right: 0;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background: #7fd1a6;
+  transition: 0.5s;
+  z-index: -1;
+  transform: scale(0);
+}
+.golf-button a:hover:after {
+  width: 50%;
+  transform: scale(1);
+}
+
+/*
+<!-- ============================================================== -->
+<!--Start feature area Section -->
+<!-- ============================================================== -->*/
+.feature-area {
+  padding: 100px 0 70px;
+}
+.feature-content-one {
+  margin-top: 24px;
+}
+.Section-title h5 {
+  color: #0e7930;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  transition: 0.5s;
+  margin: 0;
+}
+.Section-title h3 {
+  font-size: 35px;
+  transition: 0.5s;
+}
+.Section-title p {
+  margin: 0;
+  padding: 15px 0 0;
+}
+.dream-button a {
+  display: inline-block;
+  font-weight: 500;
+  border-bottom: 2px solid #0e7930;
+}
+
+.upp.dream-button a {
+  margin-top: 12px;
+}
+
+.single-feature {
+  background: #fff;
+  filter: drop-shadow(0 0 9px rgba(2, 2, 2, 0.1));
+  text-align: center;
+  padding: 25px 25px 40px;
+  margin-bottom: 30px;
+  position: relative;
+  z-index: 1;
+  transition: 0.5s;
+}
+.single-feature:before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(14, 121, 49, 1);
+  z-index: -1;
+  transition: 0.5s;
+  transform: scale(0);
+}
+
+.feature-thumb {
+  padding: 15px 0 0px;
+}
+.feature-title h3 {
+  font-size: 22px;
+  font-family: Montserrat;
+  transition: 0.5s;
+  padding: 20px 0 2px;
+  margin: 0;
+}
+.feature-text p {
+  margin: 3px auto 13px;
+  transition: 0.5s;
+  width: 90%;
+  color: #2d2a2a;
+  font-weight: 400;
+}
+/*all-hover*/
+.single-feature:hover:before {
+  transform: scale(1);
+}
+.single-feature:hover .feature-thumb img {
+  filter: brightness(0) invert(1);
+}
+.single-feature:hover .feature-title h3 {
+  color: #fff;
+}
+
+.single-feature:hover .feature-text p {
+  color: #fff;
+}
+
+.single-feature:hover .dream-button a {
+  color: #fff;
+  border-bottom: 2px solid #fff;
+}
+
+/*
+<!-- ============================================================== -->
+<!--Start Service area Section -->
+<!-- ============================================================== -->*/
+.Service-area {
+  padding: 90px 0 70px;
+}
+.single-service-box {
+  margin-bottom: 30px;
+  overflow: hidden;
+  filter: drop-shadow(0 0 9px rgba(2, 2, 2, 0.1));
+  background: #fff;
+}
+.service-thumb img {
+  width: 100%;
+  transition: 0.5s;
+}
+.service-content {
+  text-align: center;
+  padding: 10px 20px 10px;
+  position: relative;
+  z-index: 1;
+}
+.service-content:before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background: rgba(14, 121, 49, 1);
+  z-index: -1;
+  transition: 0.5s;
+}
+.service-content:after {
+  position: absolute;
+  content: "";
+  right: 0;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background: rgba(14, 121, 49, 1);
+  z-index: -1;
+  transition: 0.5s;
+}
+
+.service-title h4 {
+  font-size: 22px;
+  margin: 0;
+  padding: 9px 0 9px;
+}
+.service-desc p {
+  transition: 0.5s;
+}
+/*all-hover*/
+
+.single-service-box:hover .service-thumb img {
+  transform: scale(1.5);
+}
+
+.single-service-box:hover .service-content:before {
+  width: 53%;
+}
+.single-service-box:hover .service-content:after {
+  width: 50%;
+}
+.single-service-box:hover .service-title h4 {
+  color: #fff;
+}
+.single-service-box:hover .service-desc p {
+  color: #fff;
+}
+/*
+<!-- ============================================================== -->
+<!--Start About area Section -->
+<!-- ============================================================== -->*/
+
+.about-area {
+  background: url(../images/about/about-bg.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 100px 0 70px;
+}
+.about-thumb img {
+  width: 85%;
+}
+.about-title h3 {
+  font-size: 22px;
+  padding: 10px 0 10px;
+}
+.about-title h3.abt-boder {
+  border-top: 2px solid rgba(45, 42, 42, 0.3);
+  top: -10px;
+  padding-top: 15px;
+}
+
+.about-area .golf-button a {
+  margin-top: 20px;
+}
+/*
+<!-- ============================================================== -->
+<!--Start Training area Section -->
+<!-- ============================================================== -->*/
+
+.training-area {
+  padding: 90px 0 70px;
+  background-color: #eef4fa;
+}
+.single-Training-box {
+  display: flex;
+  background: #fff;
+  padding: 20px 20px 20px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  position: relative;
+  z-index: 1;
+  transition: 0.5s;
+}
+
+.single-Training-box::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  z-index: 2;
+  opacity: 0;
+  border-radius: 5px;
+  border-top: 2px solid #0e7930;
+  border-left: 2px solid #0e7930;
+  transition: all linear 0.5s;
+}
+
+.single-Training-box:hover::before {
+  opacity: 1;
+  width: 100%;
+  height: 100%;
+}
+.single-Training-box::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 0;
+  height: 0;
+  z-index: 2;
+  opacity: 0;
+  border-radius: 5px;
+  border-bottom: 2px solid #0e7930;
+  border-right: 2px solid #0e7930;
+  transition: all linear 0.5s;
+}
+
+.single-Training-box:hover::after {
+  opacity: 1;
+  width: 100%;
+  height: 100%;
+}
+
+.training-content {
+  padding: 0 0px 0px 30px;
+}
+.training-title h4 {
+  font-size: 22px;
+  transition: 0.5s;
+}
+.training-desc p {
+  width: 86%;
+  margin: 0;
+  padding: 8px 0 12px;
+}
+/* all-hover*/
+
+/*
+<!-- ============================================================== -->
+<!--Start testimonial area Section -->
+<!-- ============================================================== -->*/
+.testimonial-area {
+  padding: 100px 0 70px;
+}
+.single-testimonial-box {
+  margin-bottom: 30px;
+  position: relative;
+  z-index: 1;
+}
+.testimonial-content:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 0;
+  background: #0e7930;
+  transition: 0.5s;
+  z-index: -1;
+  border-radius: 108px 5px 5px 0;
+}
+.single-testimonial-box:hover .testimonial-content:before {
+  width: 100%;
+}
+.testi-thumb {
+  text-align: center;
+  position: relative;
+  top: 41px;
+  z-index: 1;
+}
+.testi-thumb img {
+  display: inline-block !important;
+}
+.testimonial-content {
+  background: #fff;
+  filter: drop-shadow(0 0 9px rgba(2, 2, 2, 0.1));
+  padding: 32px 23px 10px;
+  margin-bottom: 30px;
+  border-radius: 126px 5px 5px 0;
+  border-left: 20px solid #0e7930;
+}
+.testi-text p {
+  padding: 30px 0 10px;
+  transition: 0.5s;
+  margin: 0;
+}
+.single-testimonial-box:hover .testi-text p {
+  color: #fff;
+}
+.author-text h4 {
+  font-size: 22px;
+  transition: 0.5s;
+  margin: 0;
+}
+.single-testimonial-box:hover .author-text h4 {
+  color: #fff;
+}
+.single-testimonial-box:hover .author-text p {
+  color: #fff;
+}
+.single-testimonial-box:hover .author-thumb-icon img {
+  filter: brightness(0) invert(1);
+}
+.testi-author {
+  display: flex;
+  justify-content: space-between;
+}
+.author-thumb-icon {
+  position: relative;
+  top: 25px;
+}
+/*
+<!-- ============================================================== -->
+<!--Start contact area Section -->
+<!-- ============================================================== -->*/
+
+.contact-area {
+  background: url(../images/contact/contact.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding: 100px 0 100px;
+}
+.row.contact-bg {
+  background: #fff;
+  border-radius: 5px;
+  padding: 20px 20px 30px;
+}
+.contact-title h5 {
+  color: #0e7930;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+}
+.contact-title h3 {
+  font-size: 35px;
+  font-weight: 500;
+  padding-bottom: 30px;
+}
+
+.form-box input {
+  display: inline-block;
+  width: 100%;
+  height: 60px;
+  border: 1px solid #b2b2b2;
+  margin-bottom: 24px;
+  padding: 0 28px 0;
+  background-color: #f2fcf4;
+  border-radius: 5px;
+}
+.form-box input::placeholder {
+  opacity: 0.702;
+  font-size: 16px;
+  color: #2d2a2a;
+  font-weight: 500;
+}
+.form-box input:focus,
+button:focus {
+  outline: 0;
+  border: 1px solid #b2b2b2 !important;
+}
+.form-box textarea {
+  border: 1px solid #b2b2b2;
+  width: 100%;
+  height: 142px;
+  padding: 17px 28px 0;
+  background: #f2fcf4;
+}
+.form-box textarea::placeholder {
+  opacity: 0.702;
+  font-size: 16px;
+  color: #555555;
+  font-weight: 400;
+}
+.form-box textarea:focus {
+  outline: 0;
+  border: 1px solid #b2b2b2 !important;
+}
+.submit-button button {
+  display: inline-block;
+  background: #0e7930;
+  border-top: 0;
+  border-bottom: 0;
+  border-left: 4px solid #7fd1a6;
+  border-right: 4px solid #7fd1a6;
+  color: #fff;
+  border-radius: 5px;
+  padding: 8px 33px;
+  transition: 0.5s;
+  position: relative;
+  z-index: 1;
+  margin-top: 20px;
+}
+
+.submit-button button:focus:not(:focus-visible) {
+  outline: 0;
+  border: 0 !important;
+}
+
+/*
+<!-- ============================================================== -->
+<!--Start blog area Section -->
+<!-- ============================================================== -->*/
+.blog-area {
+  padding: 100px 0 70px;
+}
+.single-blog-box {
+  margin-bottom: 30px;
+}
+.blog-thumb {
+  overflow: hidden;
+}
+.blog-thumb img {
+  transition: 0.5s;
+  width: 100%;
+  transform: scale(1.5);
+}
+.blog-content {
+  padding: 10px 0px 32px;
+  margin-bottom: 30px;
+  position: relative;
+  z-index: 1;
+  transition: 0.4s;
+}
+.blog-content:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #0e7930;
+  z-index: -1;
+  transition: 0.4s;
+  transform: scale(0);
+}
+
+.blog-title h4 a {
+  font-size: 22px;
+  transition: 0.5s;
+  font-weight: 700;
+}
+.blog-desc p {
+  width: 83%;
+  padding: 5px 0 12px;
+  margin: 0;
+  transition: 0.5s;
+}
+
+/*all-hover*/
+.single-blog-box:hover .blog-content:before {
+  transform: scale(1);
+  padding: 10px 25px 32px;
+}
+.single-blog-box:hover .blog-content {
+  padding: 10px 25px 32px;
+}
+
+.single-blog-box:hover .blog-thumb img {
+  transform: scale(1);
+}
+.single-blog-box:hover .blog-title h4 a {
+  color: #fff;
+}
+.single-blog-box:hover .blog-desc p {
+  color: #fff;
+}
+.single-blog-box:hover .dream-button a {
+  color: #fff;
+  border-bottom: 2px solid #fff;
+}
+
+/*
+<!-- ============================================================== -->
+<!--Start footer area Section -->
+<!-- ============================================================== -->*/
+.footer-area {
+  background: url(../images/footer/footer-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding: 100px 0 30px;
+}
+.subscribe-text h2 {
+  color: #fff;
+  font-size: 30px;
+}
+.subscribe-text h2 i {
+  margin-right: 15px;
+}
+.footer-area .form-box input {
+  margin-bottom: 0;
+}
+.footer-area .submit-button {
+  position: relative;
+  top: -71px;
+  right: 4px;
+  float: right;
+}
+.footer-area .submit-button button {
+  border: 0;
+  padding: 10px 33px;
+}
+.row.bd-bt {
+  border-bottom: 1px solid rgba(235, 235, 235, 0.4);
+  padding: 0px 0 0px;
+}
+.footer-logo {
+  padding-bottom: 22px;
+}
+.footer-title h3 {
+  font-size: 22px;
+  color: #fff;
+  padding-bottom: 14px;
+}
+.footer-desc p {
+  color: #fff;
+  width: 80%;
+}
+.footer-social-icon {
+  padding-top: 6px;
+}
+.footer-social-icon ul li {
+  list-style: none;
+  display: inline-block;
+  padding-right: 10px;
+}
+.footer-social-icon ul li a i {
+  background: #fff;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 3px;
+  color: #0e7930;
+  border: 1px transparent;
+  position: relative;
+  z-index: 1;
+}
+.footer-social-icon ul li a i:hover {
+  color: #fff;
+}
+.footer-social-icon ul li a i:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #0e7930;
+  transition: 0.5s;
+  z-index: -1;
+  transform: scale(0);
+  border: 1px dashed #fff;
+}
+.footer-social-icon ul li a i:hover:after {
+  transform: scale(1);
+}
+
+.row.both-pd {
+  padding: 100px 0 90px;
+}
+.footer-content ul li {
+  list-style: none;
+}
+.footer-content ul li a {
+  color: #fff;
+  padding-top: 5px;
+}
+
+.footer-content ul li a i {
+  margin-right: 10px;
+  font-size: 9px;
+}
+.footer-company-info {
+  padding: 8px 0 10px;
+}
+.footer-company-info h4 {
+  color: #fff;
+  font-size: 18px;
+  margin: 0;
+  line-height: 22px;
+}
+.footer-company-info p {
+  color: #fff;
+  margin: 0;
+}
+.footer-widget-thumb {
+  padding-top: 12px;
+}
+.footer-widget-thumb ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+.footer-widget-thumb ul li {
+  list-style: none;
+}
+.footer-widget-thumb ul li a img {
+  border-radius: 5px;
+  transform: scale(1);
+  transition: 0.5s;
+}
+.footer-widget-thumb ul li a img:hover {
+  transform: scale(1.1);
+}
+.footer-end-text p {
+  text-align: center;
+  color: #fff;
+  border-top: 1px solid rgba(235, 235, 235, 0.4);
+  padding: 42px 0px 0;
+}
+/*===========================
+<-- golfia InnerPage Css -->
+=============================*/
+
+/*<!-- ============================================================== -->
+<!-- Start swimming breadcumb Menu  -->
+<!-- ============================================================== -->*/
+
+.breadcumb-section {
+  background: url(../images/contact/bred-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 550px;
+}
+.breadcumb-content {
+  position: relative;
+  top: 70px;
+}
+.breadcumb-title h1 {
+  margin: auto;
+  font-size: 60px;
+  color: #ffffff;
+}
+
+.breadcumb-content ul li {
+  display: inline-block;
+  list-style: none;
+  font-weight: 500;
+  font-size: 20px;
+  color: #ffffff;
+  margin-top: 24px;
+}
+.breadcumb-content ul li a {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 20px;
+  color: #ffffff;
+  transition: 0.5s;
+}
+
+.breadcumb-content ul li a:hover {
+  color: #0d6efd;
+}
+
+/*<!-- ============================================================== -->
+<!-- start golfia contact Section  -->
+<!-- ============================================================== -->*/
+.contact2-area {
+  padding: 100px 0 100px;
+}
+.contact2-info {
+  background: #f2fcf4;
+  padding: 20px 30px 20px;
+}
+.address-info {
+  padding: 13px 0 0;
+}
+.address-info a i {
+  background: #0e7930;
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 50%;
+}
+.address-info h4 {
+  font-size: 18px;
+  line-height: 27px;
+  margin: 0;
+  padding: 21px 0 0;
+}
+.contact2-area .form-box input {
+  background-color: #fff;
+}
+.contact2-area .form-box textarea {
+  background: #fff;
+}
+
+/*<!-- ============================================================== -->
+<!-- start golfia goggle Section  -->
+<!-- ============================================================== -->*/
+
+.google-map-section {
+  padding: 100px 0 100px;
+}
+
+.google-map iframe {
+  width: 100%;
+  height: 500px;
+  border-radius: 10px;
+  border: 10px solid #dddd;
+}
+
+/*<!-- ============================================================== -->
+<!-- End swimzo goggle Section  -->
+<!-- ============================================================== -->*/
+
+/*
+<!-- ============================================================== -->
+<!-- golfia service2-area Section -->
+<!-- ============================================================== -->*/
+.Service2-area {
+  padding: 100px 0 100px;
+}
+.service2-thumb {
+  position: relative;
+  right: 60px;
+}
+.service2-thumb img {
+  width: 100%;
+}
+
+.Service2-area .Section-title p {
+  width: 80%;
+}
+.service2-list {
+  padding: 5px 0 30px;
+}
+.service2-list ul li {
+  list-style: none;
+  padding: 12px 0 0;
+}
+.service2-list ul li i {
+  font-size: 8px;
+  color: #0e7930;
+  margin-right: 10px;
+}
+
+/*
+<!-- ============================================================== -->
+<!-- golfia team-area Section -->
+<!-- ============================================================== -->*/
+.team-area {
+  background: #f2fcf4;
+  padding: 100px 0 70px;
+}
+.single-team-box {
+  margin-bottom: 30px;
+  background: #fff;
+  padding: 20px 20px 20px;
+}
+.team-thumb img {
+  width: 100%;
+}
+.team-content {
+  text-align: center;
+}
+.team-icon {
+  padding-top: 6px;
+}
+.team-icon ul li {
+  list-style: none;
+  display: inline-block;
+  padding-right: 10px;
+}
+.team-icon ul li a i {
+  background: #fff;
+  width: 30px;
+  height: 30px;
+  line-height: 29px;
+  text-align: center;
+  border-radius: 3px;
+  color: #0e7930;
+  border: 1px solid #0e7930;
+  position: relative;
+  z-index: 1;
+}
+.team-icon ul li a i:hover {
+  color: #fff;
+}
+.team-icon ul li a i:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #0e7930;
+  transition: 0.5s;
+  z-index: -1;
+  transform: scale(0);
+  border: 1px solid transparent;
+}
+.team-icon ul li a i:hover:after {
+  transform: scale(1);
+}
+
+/*
+<!-- ============================================================== -->
+<!-- golfia shop-area Section -->
+<!-- ============================================================== -->*/
+.shop-area {
+  padding: 100px 0 70px;
+}
+.single-shop-box {
+  background: #f2fcf4;
+  border-radius: 5px;
+  padding: 20px 20px 25px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+}
+.shop-thumb img {
+  width: 100%;
+}
+.shop-text {
+  text-align: center;
+}
+.shop-text h4 {
+  font-size: 22px;
+  padding: 10px 0 0;
+}
+.shop-text p {
+  margin: 0;
+}
+.shop-thumb {
+  position: relative;
+  z-index: 1;
+}
+
+.shop-thumb:before {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  background: rgba(6, 36, 98, 0.6);
+  opacity: 0.8;
+  transition: 0.5s;
+  border-radius: 4px 4px 0 0;
+  opacity: 0;
+}
+
+.shop-thumb-icon a {
+  font-size: 20px;
+  width: 46px;
+  height: 46px;
+  line-height: 47px;
+  border-radius: 50%;
+  text-align: center;
+  background: #fff;
+  color: #0d0e14;
+  transition: 0.7s;
+  display: inline-block;
+  position: relative;
+  bottom: 40%;
+  z-index: 1;
+  overflow: hidden;
+}
+.shop-thumb-icon a:before {
+  position: absolute;
+  content: "";
+  z-index: -1;
+  right: 0;
+  height: 100%;
+  width: 0;
+  border-radius: 50%;
+  background: #0e7930;
+  transition: 0.6s;
+}
+
+.shop-thumb-icon a:nth-child(1) {
+  position: absolute;
+  left: 0;
+  opacity: 0;
+}
+
+.shop-thumb-icon a:nth-child(2) {
+  position: absolute;
+  right: 0;
+  opacity: 0;
+}
+.shop-thumb-icon a:hover {
+  color: #fff;
+}
+
+.shop-thumb-icon a:hover:before {
+  left: 0;
+  width: 100%;
+}
+
+.single-shop-box:hover .shop-thumb:before {
+  height: 100%;
+  top: 0;
+  opacity: 1;
+}
+
+.single-shop-box:hover .shop-thumb-icon a:nth-child(1) {
+  opacity: 1;
+  left: 80px;
+}
+
+.single-shop-box:hover .shop-thumb-icon a:nth-child(2) {
+  opacity: 1;
+  right: 80px;
+}
+
+/*============================================
+<!-- Start golfia blog details Section  -->
+=============================================*/
+
+.blog-details-area {
+  padding: 100px 0 80px;
+}
+
+.blog-details-box {
+  margin-bottom: 55px;
+}
+
+.single-img {
+  float: left;
+  padding-right: 25px;
+}
+
+.blog-details-thumb img {
+  width: 100%;
+  transition: 0.5s;
+}
+
+.meta-blog-details {
+  padding: 30px 0 35px;
+  position: relative;
+  z-index: 1;
+}
+
+.meta-blog-details:before {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 17px;
+  height: 1px;
+  width: 100%;
+  background: #ddd;
+}
+
+.meta-blog-details ul {
+  list-style: none;
+}
+
+.meta-blog-details ul li {
+  display: inline-block;
+  padding-right: 32px;
+}
+
+.meta-blog-details ul li i {
+  display: inline-block;
+  color: #0d6efd;
+  font-size: 16px;
+  padding-right: 10px;
+}
+
+.meta-blog-details ul li a {
+  display: inline-block;
+  font-weight: 300;
+  font-size: 16px;
+  color: #888787;
+}
+
+.blog-details-text p {
+  font-weight: 400;
+  width: 100%;
+  margin-bottom: 32px;
+  font-size: 16px;
+  line-height: 28px;
+  color: #888787;
+}
+.blog-details-content.left {
+  margin-top: -10px;
+}
+
+.blog-details-content.left h2 {
+  line-height: 32px;
+  margin: 0;
+  font-size: 24px;
+  color: #232323;
+  font-weight: 600;
+}
+
+.blog-details-content.left p {
+  padding: 10px 0 4px;
+  font-weight: 400;
+  width: 100%;
+  font-size: 16px;
+  line-height: 28px;
+  color: #888787;
+}
+
+.title ul {
+  list-style: none;
+}
+
+.title ul li {
+  color: #232323;
+  padding-bottom: 7px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.title ul li i {
+  font-size: 18px;
+  color: #232323;
+  margin-right: 6px;
+  position: relative;
+  top: 2px;
+}
+
+.author-comment-box {
+  background-color: rgb(238, 238, 238);
+  padding: 28px 60px 30px;
+  margin-top: 40px;
+  border-left: 2px solid #0d6efd;
+}
+
+.comment p {
+  font-weight: 400;
+  font-style: italic;
+  width: 86%;
+  padding-bottom: 5px;
+  font-size: 16px;
+  line-height: 28px;
+  color: #888787;
+}
+
+.author-thumb {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.author-thumb img {
+  border-radius: 50px;
+}
+
+.comment-author {
+  display: inline-block;
+}
+
+.comment-author h6 {
+  color: #232323;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.author-disc p {
+  font-weight: 400;
+  width: 99%;
+  padding-bottom: 5px;
+  font-size: 16px;
+  line-height: 28px;
+  color: #888787;
+  margin: 22px auto 0;
+}
+
+.single-form-box.up {
+  margin-top: 45px;
+}
+.single-form-box {
+  background: #e8f1fa;
+  border-radius: 8px;
+  padding: 55px 0 72px;
+}
+.form-title h3 {
+  font-size: 30px;
+  color: rgb(35, 35, 35);
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 38px;
+}
+
+.form-box input {
+  display: inline-block;
+  width: 100%;
+  height: 54px;
+  border: 1px solid #dddd;
+  margin-bottom: 24px;
+  padding: 0 28px 0;
+}
+.form-box input::placeholder {
+  opacity: 0.702;
+  font-size: 16px;
+  color: #555555;
+  font-weight: 400;
+}
+
+.form-box textarea {
+  border: 1px solid #ddd;
+  width: 100%;
+  height: 142px;
+  padding: 17px 28px 0;
+}
+
+.form-box textarea::placeholder {
+  opacity: 0.702;
+  font-size: 16px;
+  color: #555555;
+  font-weight: 400;
+}
+
+.blog-details-content h3 {
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 15px;
+  color: #0d6efd;
+}
+
+.blog-details-comment {
+  margin-bottom: 60px;
+  position: relative;
+}
+
+.blog-details-comment-reply {
+  position: absolute;
+  right: 25px;
+}
+
+.blog-details-comment-reply a {
+  background: #0d6efd;
+  padding: 3px 20px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  border-radius: 2px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.blog-details-comment-thumb {
+  float: left;
+  margin-right: 30px;
+}
+
+..blog-details-comment-thumb img {
+  border-radius: 100%;
+}
+
+.blog-details-comment-content h2 {
+  line-height: 32px;
+  margin: 0;
+  font-size: 24px;
+  color: #232323;
+  font-weight: 600;
+}
+
+.blog-details-comment-content {
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+
+.blog-details-comment-content span {
+  font-size: 14px;
+  margin-bottom: 6px;
+  display: block;
+}
+
+.blog-details-comment-content p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  width: 81%;
+  margin: 0 auto 0 0;
+  color: #8796a5;
+}
+
+.widget_search {
+  padding: 45px 35px;
+  position: relative;
+  z-index: 1;
+  margin-bottom: 30px;
+  filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.15));
+  background: #ffffff;
+}
+
+.widget_search input::placeholder {
+  color: #888f99;
+}
+
+.widget_search form input {
+  display: inline-block;
+  padding: 12px 75px;
+  border: 1px dashed #0e7930;
+  background: #ffff;
+}
+.widget_search form i {
+  font-size: 17px;
+  color: #0e7930;
+  position: absolute;
+  left: 75px;
+  top: 65px;
+}
+.widget-recent-post {
+  border-bottom: 1px solid rgba(16, 18, 16, 0.10196078431372549);
+  padding: 0 0 25px;
+  margin-bottom: 25px;
+}
+
+.rpost-thumb {
+  margin-right: 20px;
+}
+
+.rpost-thumb img {
+  height: 90px;
+  width: 90px;
+}
+
+h4.sidebar-title {
+  padding: 0 0 30px;
+}
+
+.rpost-title h4 {
+  margin-top: 2px;
+}
+
+.rpost-content h4 a {
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #101010;
+  display: inline-block;
+  transition: 0.5s;
+}
+
+.rpost-content h4 a:hover {
+  color: #0e7930;
+}
+.rpost-title span {
+  font-size: 15px;
+  padding: 6px 0 0;
+  display: inline-block;
+}
+
+.widget-sidebar-box {
+  padding: 30px 30px 45px;
+  border-bottom: 30px;
+  margin-bottom: 30px;
+  filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.15));
+  background: #ffffff;
+}
+
+h4.sidebar-title.upp {
+  padding: 0;
+  margin: 0;
+}
+.sidebar-title {
+  font-size: 24px;
+  color: #01101e;
+  font-weight: 700;
+}
+
+ul.sidebar-menu {
+  list-style: none;
+}
+
+ul.sidebar-menu li a {
+  font-size: 17px;
+  color: #888f99;
+  font-weight: 400;
+  border: 1px dashed #0e7930;
+  display: inline-block;
+  padding: 12px 0px 11px 0;
+  margin: 30px 0 0;
+  width: 100%;
+  transition: 0.5s;
+}
+
+ul.sidebar-menu li a i {
+  color: #0e7930;
+  font-size: 10px;
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  line-height: 20px;
+  border: 1px solid #0e7930;
+  border-radius: 15px;
+  text-align: center;
+  margin: 0 5px 0 22px;
+  transition: 0.5s;
+}
+
+ul.sidebar-menu li a span {
+  float: right;
+  margin-right: 30px;
+}
+
+ul.sidebar-menu li a:hover {
+  color: #0e7930;
+}
+
+ul.sidebar-menu li a i:hover {
+  color: #0e7930;
+  border-color: #0e7930;
+}
+
+.blog-details-single-box {
+  text-align: center;
+  background: #fff;
+  margin: 35px 0;
+  padding: 35px 0 35px;
+  border-radius: 5px;
+  box-shadow: 10px 10px 57px rgba(16, 84, 200, 0.05);
+}
+
+.blog-content.up {
+  padding: 12px 0 0;
+}
+
+.blog-content.up a {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.blog-details-icon a {
+  font-size: 16px;
+  color: #0d6efd;
+  display: inline-block;
+  border: 1px dashed #0d6efd;
+  height: 40px;
+  margin: 0 5px 0;
+  transition: 0.5s;
+  width: 40px;
+  border-radius: 10px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.blog-details-icon a:hover {
+  background: #0d6efd;
+  color: #fff;
+}
+
+.widget-sidebar-box.up {
+  background: #ffff;
+  padding: 30px 30px 45px;
+  border-radius: 5px;
+  border-bottom: 30px;
+}
+
+.sidebar-title-left {
+  font-size: 22px;
+  color: #01101e;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.tag-item ul {
+  list-style: none;
+}
+
+.tag-item ul li {
+  display: inline-block;
+}
+
+.tag-item ul li a {
+  display: inline-block;
+  padding: 5px 19px;
+  border: 1px dashed #0e7930;
+  font-size: 15px;
+  color: #656970;
+  font-weight: 400;
+  margin: 0 6px 10px;
+  transition: 0.5s;
+}
+.tag-item ul li a:hover {
+  color: #f1f5f9;
+  background-color: #0e7930;
+}
+
+.contact-section.up {
+  margin-top: 0;
+}
+
+/* Calendar css */
+.wrapper {
+  border-radius: 5px;
+  border: 1px solid #e6e6e6;
+  box-shadow: 0 0 2px rgb(0 0 0 / 5%);
+  margin-bottom: 30px;
+}
+
+.wrapper .current-month {
+  display: flex;
+  align-items: center;
+  padding: 0 30px 0;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.icons {
+  display: flex;
+}
+
+.icons span {
+  display: inline-block;
+  height: 38px;
+  width: 38px;
+  margin: 0 1px;
+  cursor: pointer;
+  color: #878787;
+  text-align: center;
+  line-height: 38px;
+  font-size: 1.9rem;
+  user-select: none;
+  border-radius: 50%;
+}
+
+.icons span:last-child {
+  margin-right: -10px;
+}
+
+.icons span:hover {
+  background: #f2f2f2;
+}
+
+.icons span {
+  background: #f2f2f2;
+  transition: 0.5s;
+}
+
+.icons span:hover {
+  background-color: rgb(37, 89, 158);
+}
+
+.icons span i {
+  font-size: 16px;
+}
+
+.current-date {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.calendar {
+  padding: 20px 20px 0;
+}
+
+.calendar ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  text-align: center;
+}
+
+.calendar li {
+  color: #0e7930;
+  width: calc(100% / 7);
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.calendar .weeks li {
+  font-weight: 500;
+  cursor: default;
+}
+
+.calendar .days li {
+  z-index: 1;
+  cursor: pointer;
+  position: relative;
+}
+
+.days li.inactive {
+  color: #aaa;
+  transition: 0.5s;
+}
+
+.days li.active {
+  color: white;
+}
+
+.days li::before {
+  position: absolute;
+  content: "";
+  left: 50%;
+  top: 50%;
+  height: 40px;
+  width: 40px;
+  z-index: -1;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  transition: 0.5s;
+}
+
+.days li.active::before {
+  background-color: ##0e7930;
+}
+
+.days li:not(.active):hover::before {
+  background: #f2f2f2;
+}
+.video-button a {
+  background: #0e7930;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 15px 44px;
+  display: inline-block;
+  border-radius: 5px;
+  position: relative;
+  z-index: 1;
+  transition: 0.5s;
+  margin-top: 25px;
+  border: 2px transparent;
+  margin-bottom: 20px;
+}
+.video-button a:hover {
+  color: #0e7930;
+}
+.video-button a i {
+  margin-left: 8px;
+}
+.video-button a:before {
+  position: absolute;
+  content: "";
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: white;
+  z-index: -1;
+  transform: scale(0);
+  transition: 0.5s;
+  border-radius: 5px;
+  border: 2px dashed #0e7930;
+}
+.video-button a:hover:before {
+  transform: scale(1);
+}
+/*============================================
+	<!-- End blog blog details Section  -->
+=============================================*/
+
+/*<!-- ============================================================== -->
+	<!-- Start golfia pricing Section  -->
+<!-- ============================================================== -->*/
+
+.pricing-section {
+  padding: 100px 0 90px;
+}
+
+.pricing-single-box {
+  padding: 0px 0 32px;
+  filter: drop-shadow(0 0 15px rgba(0, 0, 0, 0.2));
+  background-color: #ffffff;
+  transition: 0.5s;
+  margin-bottom: 30px;
+}
+
+.pricing-single-box:hover {
+  filter: drop-shadow(0 0 1px rgba(0, 0, 0, 0.2));
+  background-color: #ffffff;
+}
+
+.pricing-head {
+  text-align: center;
+  background: #e8f1fa;
+  padding: 27px 0 22px;
+  position: relative;
+  z-index: 1;
+}
+
+.pricing-head:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: 0.9s;
+  transition: 0.9s;
+  transform: perspective(500px) rotateX(90deg);
+  z-index: -1;
+  background: #0e7930;
+}
+
+.pricing-single-box:hover .pricing-head:before {
+  visibility: visible;
+  opacity: 0.9;
+  transform: perspective(500px) rotateX(0deg);
+}
+
+h4.price-top-title {
+  font-size: 24px;
+  color: #232323;
+  font-weight: 600;
+  text-align: center;
+  margin: auto;
+  transition: 0.5s;
+}
+
+h2.price-title {
+  margin: 12px 0 7px;
+  font-size: 43px;
+  color: #232323;
+  font-weight: 600;
+  text-align: center;
+  transition: 0.5s;
+}
+
+.pricing-text span {
+  font-size: 16px;
+  color: #888787;
+  text-align: center;
+  display: inline-block;
+  transition: 0.5s;
+}
+
+/*pricing boody*/
+
+.pricing-boody {
+  position: relative;
+  margin-left: 70px;
+  margin-top: 25px;
+}
+
+.pricing-boody ul li {
+  list-style: none;
+  display: block;
+  padding: 0 0 11px 0;
+  font-weight: 400;
+  font-size: 16px;
+  color: #888787;
+}
+
+.pricing-boody ul li i {
+  display: inline-block;
+  color: #0e7930;
+  font-size: 18px;
+  margin-right: 4px;
+  position: relative;
+  top: 4px;
+}
+
+.price-btn {
+  margin-top: 16px;
+  text-align: center;
+}
+
+.price-btn a {
+  padding: 15px 40px;
+  display: inline-block;
+  background: #0e7930;
+  position: relative;
+  z-index: 1;
+  transition: 0.5s;
+  font-size: 16px;
+  color: #0e7930;
+  font-weight: 600;
+}
+
+.price-btn a:before {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: #ddeaff;
+  z-index: -1;
+  transition: 0.5s;
+}
+
+.price-btn a:hover::before {
+  transform: rotateX(90deg);
+}
+
+.price-btn a:after {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: #ddeaff;
+  z-index: -1;
+  transition: 0.5s;
+}
+
+.price-btn a:hover::after {
+  transform: rotateY(90deg);
+}
+
+.price-btn a:hover {
+  color: #ffff;
+}
+
+.pricing-single-box:hover h4.price-top-title {
+  color: #ffff;
+}
+.pricing-single-box:hover h2.price-title {
+  color: #ffff;
+}
+.pricing-single-box:hover .pricing-text span {
+  color: #ffff;
+}
+
+/*<!-- ============================================================== -->
+<!-- End golfia pricing Section  -->
+<!-- ============================================================== -->*/
+
+/*<!-- ============================================================== -->
+<!-- Start golfia booking Section  -->
+<!-- ============================================================== -->*/
+
+.booking-section {
+  padding: 100px 0 100px;
+}
+.booking-section .form-box {
+  padding: 0 40px 0;
+}
+
+.booking-section .submit-button button {
+  margin-left: 40px;
+}
+
+/*<!-- ============================================================== -->
+<!-- End golfia booking Section  -->
+<!-- ============================================================== -->*/
+
+/*<!-- ============================================================== -->
+<!-- Start golfia faq Section  -->
+<!-- ============================================================== -->*/
+
+.faq-section {
+  padding: 100px 0 100px;
+}
+/*accordion*/
+.accordion li {
+  position: relative;
+  list-style: none;
+  padding: 11px 30px 11px;
+  background: #0e7930;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #fff !important;
+}
+.accordion li a {
+  width: 100%;
+  display: block;
+  cursor: pointer;
+  font-weight: 600;
+  line-height: 3;
+  user-select: none;
+  font-weight: 500;
+  color: #fff !important;
+  font-size: 20px !important;
+}
+.accordion li p {
+  display: none;
+  font-size: 16px;
+  color: #fff;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  margin: 8px 0 21px;
+  padding-top: 20px;
+}
+.accordion a:before {
+  width: 2px;
+  height: 12px;
+  background: #fff;
+  position: absolute;
+  right: 43px;
+  content: " ";
+  top: 33px;
+  transform: rotate(0deg);
+  transition: all 0.2s ease-in-out;
+}
+.accordion a:after {
+  width: 12px;
+  height: 2px;
+  background: #fff;
+  position: absolute;
+  right: 38px;
+  content: " ";
+  top: 38px;
+  transition: all 0.2s ease-in-out;
+}
+
+a.active:after {
+  transform: rotate(0deg);
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+a.active:before {
+  display: none;
+}
+
+/*<!-- ============================================================== -->
+<!-- End golfia faq Section  -->
+<!-- ============================================================== -->*/
+
+/*<!-- ============================================================== -->
+<!-- Start golfia gallery Section  -->
+<!-- ============================================================== -->*/
+
+.gallery-section {
+  padding: 100px 0 90px;
+}
+
+.single-gallery-box {
+  margin-bottom: 30px;
+  filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.15));
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+.gallery-thumb {
+  overflow: hidden;
+}
+
+.gallery-thumb img {
+  width: 100%;
+  transition: 0.5s;
+}
+
+.single-gallery-box:hover .gallery-thumb img {
+  transform: scale(1.1);
+}
+
+.gallery-title {
+  padding: 25px 0;
+  position: relative;
+  z-index: 1;
+}
+
+.gallery-title:before {
+  position: absolute;
+  content: "'";
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 0;
+  transition: 0.5s;
+  z-index: -1;
+  background: #0e7930;
+}
+
+.single-gallery-box:hover .gallery-title:before {
+  height: 100%;
+  top: 0;
+}
+
+.gallery-title h2 {
+  font-size: 24px;
+  color: #232323;
+  font-weight: 600;
+  text-align: center;
+  margin: auto;
+  transition: 0.5s;
+}
+
+.single-gallery-box:hover .gallery-title h2 {
+  color: #ffff;
+}
+
+/*<!-- ============================================================== -->
+<!-- End golfia gallery Section  -->
+<!-- ============================================================== -->*/
+
+/*============================================
+<!-- start swimzo shop details Section  -->
+=============================================*/
+
+.shop-detials {
+  padding: 100px 0 90px;
+}
+
+.tab {
+  overflow: hidden;
+}
+
+.tabs li {
+  line-height: 38px;
+  margin-bottom: 30px;
+  position: relative;
+  display: inline-block;
+}
+
+.tabs li a {
+  background: inherit;
+  color: #fff;
+  font-weight: 600;
+  display: inline-block;
+  outline: none;
+  padding: 5px;
+  transition: all 0.5s ease-in-out;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+
+.tabs li.current:before {
+  background: transparent;
+  border: 0;
+}
+
+li.current a {
+  border: 1px solid #806cff;
+}
+
+.tabs_item {
+  display: none;
+}
+
+.tabs_item:first-child {
+  display: block;
+}
+
+/*Shop dtls Right
+============================*/
+
+.shop-dtls-info {
+  padding-left: 30px;
+}
+
+.category-title h2 {
+  font-size: 31px;
+  font-weight: 700;
+  line-height: 26px;
+  padding: 0px 0 23px;
+}
+
+.category-icon-list ul li {
+  list-style: none;
+  display: inline-block;
+  color: #0e7930;
+  letter-spacing: 0.4em;
+  font-size: 16px;
+}
+
+li.category-text {
+  letter-spacing: 0 !important;
+  color: #67686c !important;
+  padding-left: 6px;
+}
+
+.category-price h1 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: #0e7930;
+  padding: 6px 0 19px;
+}
+.category-price span {
+  color: #616161;
+  padding-left: 14px;
+  text-decoration: line-through;
+}
+
+.category-description p {
+  font-size: 16px;
+  line-height: 28px;
+  color: #888787;
+  font-family: "Nunito", sans-serif;
+  margin: auto;
+}
+.category-color p {
+  color: #062462;
+  line-height: 26px;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 18px 0 6px;
+}
+
+.category-color span {
+  color: #67686c;
+  padding-left: 20px;
+  position: relative;
+}
+
+.category-color span:before {
+  position: absolute;
+  content: ":";
+  left: 4px;
+  top: -3px;
+}
+
+/* --- Quantity button 
+================================*/
+
+.category-count-button {
+  display: inline-flex;
+  padding: 8px 0 30px;
+}
+
+.quantity-with_btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.quantity .cart-plus-minus {
+  position: relative;
+  width: 170px;
+  text-align: left;
+  height: 54px;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.quantity .cart-plus-minus > .ctnbutton {
+  cursor: pointer;
+  position: absolute;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  width: 38px;
+  -webkit-box-align: center;
+  align-items: center;
+  vertical-align: middle;
+  color: #fff;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background: #0e7930;
+}
+
+.quantity .cart-plus-minus > .cart-plus-minus-box {
+  border: 0;
+  height: 54px;
+  text-align: center;
+  width: 170px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #062461;
+  background-color: #fff !important;
+  background: linear-gradient(90deg, #0e7930 50%, transparent 0) repeat-x,
+    linear-gradient(90deg, #0e7930 50%, transparent 0) repeat-x,
+    linear-gradient(0deg, #0d6efd 50%, transparent 0) repeat-y,
+    linear-gradient(0deg, #0d6efd 50%, transparent 0) repeat-y;
+  background-size: 6px 2px, 6px 2px, 2px 6px, 2px 7px;
+  background-position: 0 0, 0 100%, 0 0, 100% 0;
+  -webkit-animation: linearGradientMove 0.3s infinite linear;
+  animation: linearGradientMove 0.3s infinite linear;
+}
+
+.quantity .cart-plus-minus > .ctnbutton.dec {
+  top: 50%;
+  left: 0%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  display: -webkit-box;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  height: 100%;
+  border-radius: 0 30px 30px 0;
+}
+
+.quantity .cart-plus-minus > .ctnbutton.inc {
+  top: 50%;
+  right: 0%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  height: 100%;
+  border-radius: 30px 0 0 30px;
+}
+
+/*categories button
+=========================*/
+
+.category-button {
+  display: inline-block;
+  padding-left: 20px;
+}
+
+.category-button a {
+  padding: 13px 25px;
+  font-size: 15px;
+  font-weight: 500;
+  background: #0e7930;
+  border-radius: 4px;
+  color: #fff;
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+}
+
+.category-button a:before {
+  position: absolute;
+  z-index: -1;
+  content: "";
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 0;
+  background: #7fd1a6;
+  border-radius: 4px;
+  transition: 0.5s;
+}
+
+.category-button a i {
+  padding-left: 10px;
+  font-size: 16px;
+}
+.category-button a:hover {
+  color: #000;
+}
+.category-button a:hover:before {
+  left: 0;
+  width: 100%;
+}
+
+/* table
+================*/
+
+table.category-table {
+  padding: 2px 0 0;
+  display: inline-block;
+}
+
+table.category-table td.table-title {
+  font-size: 16px;
+  color: #062461;
+  font-weight: 500;
+}
+
+table.category-table tr td {
+  padding-right: 25px;
+  padding-bottom: 12px;
+}
+
+table.category-table td.table-title {
+  font-size: 16px;
+  color: #0d0e14;
+  font-weight: 500;
+}
+
+table.category-table td.table-text {
+  color: #616161;
+  position: relative;
+  z-index: 1;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+table.category-table td.table-text:before {
+  position: absolute;
+  content: ":";
+  left: -15px;
+  top: 0;
+  font-size: 20px;
+  color: #0d0e14;
+}
+
+.product-item-title h2 {
+  font-size: 24px;
+  color: #232323;
+  font-weight: 600;
+  font-style: italic;
+  font-family: "Barlow";
+  margin: 20px auto 15px;
+}
+
+/*Shop Right 
+======================*/
+
+.row.products {
+  padding-left: 80px;
+}
+
+.single-products-box {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.products-thumb {
+  position: relative;
+  z-index: 1;
+}
+
+.products-thumb:before {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 0;
+  background: rgba(6, 36, 98, 0.8);
+  opacity: 0.8;
+  transition: 0.5s;
+  border-radius: 4px 4px 0 0;
+}
+
+.products-thumb img {
+  width: 100%;
+  transition: 0.5s;
+  border-radius: 4px 4px 0 0;
+}
+
+.product-sale {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.product-sale span {
+  padding: 4px 20px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  background: #0e7930;
+  color: #fff;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+.product-thumb-icon a {
+  font-size: 20px;
+  width: 46px;
+  height: 46px;
+  line-height: 47px;
+  border-radius: 50%;
+  text-align: center;
+  background: #fff;
+  color: #0d0e14;
+  transition: 0.7s;
+  display: inline-block;
+  position: relative;
+  bottom: 40%;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.product-thumb-icon a:before {
+  position: absolute;
+  content: "";
+  z-index: -1;
+  right: 0;
+  height: 100%;
+  width: 0;
+  border-radius: 50%;
+  background: #0e7930;
+  transition: 0.6s;
+}
+
+.product-thumb-icon a:nth-child(1) {
+  position: absolute;
+  left: 0;
+  opacity: 0;
+}
+
+.product-thumb-icon a:nth-child(2) {
+  position: absolute;
+  right: 0;
+  opacity: 0;
+}
+
+.product-content {
+  padding: 23px 0 6px;
+  border: 1px solid rgba(6, 36, 98, 0.1);
+  border-top: 0;
+  border-radius: 0 0 4px 4px;
+}
+
+ul.product-rating li {
+  list-style: none;
+  display: inline-block;
+  color: #0e7930;
+  letter-spacing: 0.3em;
+  font-size: 14px;
+}
+
+.product-title h2 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #232323;
+  line-height: 17px;
+}
+
+.product-price p {
+  font-size: 15px;
+  padding: 14px 0 0px;
+  color: #0e7930;
+}
+.product-price p span {
+  color: #616161;
+  text-decoration: line-through;
+  margin-left: 5px;
+}
+
+.product-thumb-icon a:hover {
+  color: #fff;
+}
+
+.product-thumb-icon a:hover:before {
+  left: 0;
+  width: 100%;
+}
+
+.single-products-box:hover .products-thumb:before {
+  height: 100%;
+  top: 0;
+}
+
+.single-products-box:hover .product-thumb-icon a:nth-child(1) {
+  opacity: 1;
+  left: 88px;
+}
+
+.single-products-box:hover .product-thumb-icon a:nth-child(2) {
+  opacity: 1;
+  right: 88px;
+}
+
+/*============================================
+<!-- End golfia shop details Section  -->
+=============================================*/
+
+/*============================================
+<!-- Start golfia team details Section  -->
+=============================================*/
+.team-details-area {
+  padding: 100px 0 100px;
+}
+.team-details-thumb img {
+  width: 90%;
+  border-radius: 20px;
+}
+.team-details-top-content h3 {
+  font-size: 32px;
+}
+.team-details-top-content p {
+  color: #0e7930;
+  font-weight: 700;
+}
+.team-details-contact {
+  margin: 20px 0 20px;
+}
+.team-details-contact h5 {
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.team-details-contact span {
+  font-size: 16px;
+  font-weight: 500;
+}
+.team-details-social a {
+  display: inline-block;
+  margin: 10px 3px 0px;
+  background: #0e7930;
+  color: #fff;
+  height: 40px;
+  width: 40px;
+  line-height: 42px;
+  text-align: center;
+  border-radius: 50px;
+  transition: 0.5s;
+  position: relative;
+  z-index: 1;
+}
+.team-details-social a:before {
+  position: absolute;
+  z-index: -1;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50px;
+  background: #7fd1a6;
+  transition: 0.5s;
+  transform: scale(0);
+}
+.team-details-social a:hover {
+  color: #0e7930;
+}
+.team-details-social a:hover:before {
+  transform: scale(1);
+}
+
+/*============================================
+<!-- End golfia team details Section  -->
+=============================================*/
+
+/*============================================
+<!-- start golfia membership Section  -->
+=============================================*/
+.membership-package-area {
+  padding: 100px 0 70px;
+}
+.single-membership-box {
+  margin-bottom: 30px;
+}
+.membership-top-section {
+  background: url(../images/membership/member-bg.jpg);
+  height: 600px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.membership-top-title h1 {
+  color: #fff;
+  font-size: 60px;
+  text-align: center;
+}
+
+.membership-content {
+  text-align: center;
+  border: 1px solid #0e7930;
+  padding: 20px 20px 30px;
+}
+.membership-title {
+  padding: 0 0 30px;
+}
+
+.membership-title h5 {
+  font-size: 16px;
+  color: #0e7930;
+}
+.membership-title h1 {
+  font-size: 50px;
+  color: rgb(14, 121, 48, 0.9);
+}
+.membership-desc {
+  padding: 30px 0 20px;
+  border-top: 1px solid rgb(14, 121, 48, 0.4);
+}
+.membership-desc p {
+  margin: 0;
+  padding: 5px 0 0;
+}
+.single-membership-box.bg {
+  background: #f5f0ee;
+}
+
+/*============================================
+<!-- end golfia membership Section  -->
+=============================================*/
+
+/*============================================
+<!-- Start golfia membership video Section  -->
+=============================================*/
+
+.membership-video-section {
+  background: url(../images/membership/h1-img.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .video__area {
+    background-attachment: unset;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .video__area {
+    background-attachment: unset;
+  }
+}
+
+.video__area:hover .play-now {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.video__area .play-now {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 24px;
+  color: #fff;
+  text-transform: uppercase;
+  background-color: rgba(0, 0, 0, 0.2);
+  border: 1px solid #ffffff;
+  text-transform: capitalize;
+  border-radius: 100%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  position: absolute;
+  width: 160px;
+  height: 160px;
+  line-height: 160px;
+  opacity: 1;
+  visibility: visible;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .video__area .play-now {
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .video__area .play-now {
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+  }
+}
+
+.video__content {
+  display: block;
+  width: 100%;
+  height: 700px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .video__content {
+    height: 550px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .video__content {
+    height: 550px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .video__content {
+    height: 450px;
+  }
+}
+
+.video__content a {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  border: none;
+  background-color: transparent;
+}
+
+.cursor {
+  position: fixed;
+  pointer-events: none;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 23px;
+  color: #fff;
+  background: black;
+  text-transform: capitalize;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  -webkit-transform: translate(-50%, -50%) scale(0);
+  transform: translate(-50%, -50%) scale(0);
+  z-index: 999;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.cursor.video {
+  width: 160px;
+  height: 160px;
+  line-height: 160px;
+  border-radius: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  border: 1px solid #ffffff;
+}
+
+@media only screen and (max-width: 767px) {
+  .cursor.video {
+    display: none;
+  }
+}
+
+/*============================================
+<!-- Start golfia membership video Section  -->
+=============================================*/
+
+/*
+<!-- ============================================================== -->
+<!-- golfia Scrollup Section -->
+<!-- ============================================================== -->*/
+
+/*------back-to-top------------*/
+.prgoress_indicator {
+  position: fixed;
+  right: 85px;
+  bottom: 75px;
+  height: 46px;
+  width: 46px;
+  cursor: pointer;
+  display: block;
+  border-radius: 50px;
+  box-shadow: inset 0 0 0 2px rgba(17, 85, 233, 0.2);
+  z-index: 10000;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(15px);
+  transform: translateY(15px) !important;
+  transition: all 200ms linear !important;
+}
+.prgoress_indicator.active-progress {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0) !important;
+}
+.prgoress_indicator::after {
+  position: absolute;
+  content: "\f106";
+  font-family: "Font Awesome 5 Free";
+  text-align: center;
+  line-height: 46px;
+  font-size: 18px;
+  color: #ff5e14;
+  left: 0;
+  top: 0;
+  height: 46px;
+  width: 46px;
+  cursor: pointer;
+  display: block;
+  font-weight: 900;
+  z-index: 1;
+  transition: all 200ms linear !important;
+}
+.prgoress_indicator::before {
+  position: absolute;
+  content: "\f633";
+  font-family: "Font Awesome 5 Free";
+  text-align: center;
+  line-height: 46px;
+  font-size: 18px;
+  font-weight: 900;
+  opacity: 0;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  left: 0;
+  font-family: bootstrap-icons !important;
+  top: 0;
+  height: 46px;
+  width: 46px;
+  cursor: pointer;
+  display: block;
+  z-index: 2;
+  transition: all 200ms linear !important;
+}
+.prgoress_indicator:hover ::after {
+  color: var(--primary-color-one);
+}
+.prgoress_indicator:hover ::before {
+  opacity: 1;
+}
+.prgoress_indicator svg path {
+  fill: none;
+}
+.prgoress_indicator svg.progress-circle path {
+  stroke: #ff5e14;
+  stroke-width: 4;
+  box-sizing: border-box;
+  transition: all 200ms linear !important;
+}
+
+/*===========================
+<-- swimzo Loader Css -->
+=============================*/
+.loader-wrapper {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  transition: 0.8s 1s ease;
+  z-index: 666;
+}
+
+.loader {
+  position: relative;
+  display: block;
+  z-index: 201;
+  top: 50%;
+  left: 50%;
+  width: 100px;
+  height: 100px;
+  margin: -50px 0 0 -50px;
+  border-radius: 50%;
+  transition: all 1s 1s ease;
+  border: 3px solid transparent;
+  border-top-color: #0163a2;
+  -webkit-animation: spin 1.5s linear infinite;
+  -moz-animation: spin 1.5s linear infinite;
+  -o-animation: spin 1.5s linear infinite;
+  animation: spin 1.5s linear infinite;
+}
+
+.loader:before {
+  position: absolute;
+  content: "";
+  top: 6px;
+  left: 6px;
+  right: 6px;
+  bottom: 6px;
+  border-radius: 50%;
+  border: 3px solid transparent;
+  border-left-color: #ff5e14;
+  -webkit-animation: spin 2s linear infinite;
+  -moz-animation: spin 2s linear infinite;
+  -o-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+.loader:after {
+  position: absolute;
+  content: "";
+  top: 15px;
+  left: 15px;
+  right: 15px;
+  bottom: 15px;
+  border-radius: 50%;
+  border: 3px solid transparent;
+  border-right-color: #fff;
+  -webkit-animation: spin 2.5s linear infinite;
+  -moz-animation: spin 2.5s linear infinite;
+  -o-animation: spin 2.5s linear infinite;
+  animation: spin 2.5s linear infinite;
+}
+
+/*/ Here comes the Magic /*/
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@-moz-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+.loader-wrapper .loder-section {
+  position: fixed;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  background: #111;
+  z-index: 2;
+}
+
+.loader-wrapper .loder-section.left-section {
+  left: 0;
+  transition: 1s 1.4s ease;
+}
+
+.loader-wrapper .loder-section.right-section {
+  right: 0;
+  transition: 1s 1.4s ease;
+}
+
+/*/ When page loaded /*/
+.loaded .loder-section.left-section {
+  left: -100%;
+}
+
+.loaded .loder-section.right-section {
+  right: -100%;
+}
+
+.loaded .loader-wrapper {
+  visibility: hidden;
+}
+
+.loaded .loader {
+  top: -100%;
+  opacity: 0;
+}
+
+/*curser point */
+
+.curser {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #0163a2;
+  border-radius: 50%;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  transition: 0.1s;
+}
+
+.curser2 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 8px;
+  height: 8px;
+  background: #0163a2;
+  border-radius: 50%;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  transition: 0.15s;
+  animation: Ripple 1.6s ease-in-out infinite;
+  -webkit-animation: Ripple 1.6s ease-in-out infinite;
+  -moz-animation: Ripple 1.6s ease-in-out infinite;
+}
+
+/ Portfolio Nav / .portfolio_nav {
+  margin-bottom: 50px;
+}
+.portfolio_menu ul {
+  text-align: center;
+  list-style: none;
+}
+.portfolio_menu ul li {
+  display: inline-block;
+  margin: 0 14px;
+  cursor: pointer;
+}
+.portfolio_menu ul li a {
+  display: block;
+  color: #fff;
+  text-transform: uppercase;
+  position: relative;
+  transition: 0.5s;
+}
+.portfolio_menu ul li a:before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 24px;
+  height: 2px;
+  width: 0%;
+  background: #fff;
+  transition: 0.5s;
+}
+.portfolio_nav ul li {
+  background: #f2f4ff;
+  border: medium none;
+  font-size: 16px;
+  line-height: 1;
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  text-transform: capitalize;
+  padding: 12px 27px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  position: relative;
+  margin: 0 3px;
+  margin-bottom: 7px;
+  display: inline-block;
+  border-radius: 5px;
+}
+.portfolio_nav ul li:hover,
+.portfolio_nav ul li.current_menu_item {
+  color: #fff;
+  background: #0c5adb;
+}

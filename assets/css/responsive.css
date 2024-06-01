@@ -1,0 +1,570 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1600px) {
+
+    .golfia_menu>ul>li>a {
+        margin: 30px 6px !important;
+        font-size: 15px !important;
+    }
+
+    a.logo_img img {
+        width: 170px !important;
+    }
+
+    .header-button a {
+        padding: 10px 30px;
+        font-size: 14px;
+    }
+
+.about-counter {
+    padding: 26px 11px 16px;
+}
+.feature-title h3 {
+    font-size: 20px;
+    font-weight: 700;
+}
+.course-title h3 {
+    font-size: 16px;
+}
+.blog-end span p {
+    margin: 0 16px 0;
+}
+.single-shop-box:hover .shop-thumb-icon a:nth-child(1) {
+    opacity: 1;
+    left: 60px;
+}
+.single-shop-box:hover .shop-thumb-icon a:nth-child(2) {
+    opacity: 1;
+    right: 60px;
+}
+   
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    a.logo_img img {
+        width: 90%;
+    }
+
+    a.main_sticky img {
+        width: 100%;
+    }
+
+
+    .golfia_menu>ul>li>a {
+        font-size: 14px;
+        margin: 29px 5px;
+    }
+
+    .header-button {
+        padding-left: 5px;
+    }
+
+    .header-button a {
+        font-size: 13px;
+        padding: 9px 20px;
+    }
+	
+.service-title h3 {
+    font-size: 22px;
+}
+.about-counter {
+    padding: 15px 16px 10px;
+}
+.about-counter-icon {
+    margin-right: 16px;
+}
+.about-counter-text h1 {
+    font-size: 26px;
+}	
+.about-counter-text p {
+    font-size: 10px;
+}
+.feature-title h3 {
+    font-size: 16px;
+}	
+.meta-blogs span {
+    font-size: 15px;
+}	
+.course-title h3 {
+    padding: 10px 63px;
+    font-size: 13px;
+}	
+.counter-desc p {
+    font-size: 14px;
+}	
+.blog-title h4 {
+    font-size: 16px;
+}	
+.blog-end span p {
+    margin: 0 4px 0;
+}
+.section-title h2 {
+    font-size: 26px;
+    margin: 0;
+}
+.about-list ul li {
+    padding-bottom: 8px;
+}
+.training-thumb img {
+    width: 100%;
+}
+.single-Training-box {
+    display: inherit;
+}
+.testimonial-content {
+    padding: 48px 18px 20px;
+}
+.testi-thumb {
+    top: 45px;
+}
+.subscribe-text h2 {
+    font-size: 28px;
+}
+.single-shop-box:hover .shop-thumb-icon a:nth-child(1) {
+    opacity: 1;
+    left: 30px;
+}
+.single-shop-box:hover .shop-thumb-icon a:nth-child(2) {
+    opacity: 1;
+    right: 30px;
+}
+
+}
+
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .golfia_nav_manu {
+        display: none;
+    }
+
+    .header-top-section {
+        display: none;
+    }
+
+    
+   
+
+    /*progress
+    ==============*/
+
+    .progress-right-content {
+        padding-left: 10px;
+    }
+
+    .progress-single-box {
+        width: 32%;
+        bottom: 30%;
+        left: 11%;
+    }
+.about-thumb {
+    margin-bottom: 30px;
+}
+  .feature-title h3 {
+    font-size: 18px;
+} 
+.text-center.section-title p {
+    width: 54%;
+}
+.portfolio_nav ul li {
+    padding: 11px 10px;
+}
+.course-title h3 {
+    padding: 15px 63px;
+    font-size: 16px;
+}
+.single-counter {
+    margin-bottom: 30px;
+}
+.blog-title h4 {
+    font-size: 18px;
+}
+.blog-end span p {
+    margin: 0 10px 0;
+}
+
+.footer-button a {
+    padding: 10px 15px;
+}
+.section-title h2 {
+    font-size: 18px;
+    line-height: 26px;
+}
+.about-list ul li {
+    padding-bottom: 4px;
+}
+.contact-area .section-title p {
+    width: 80%;
+}
+.contact-area {
+    padding: 100px 0 50px;
+}
+.contact-area .section-title h2 {
+    margin-top: 30px;
+}
+.single-Training-box {
+    display: inherit;
+}
+.subscribe-text h2 {
+    font-size: 20px;
+}
+.footer-area .submit-button button {
+    padding: 10px 8px;
+}
+.dream-button {
+    margin-bottom: 25px;
+}
+
+
+}
+
+/* Large Mobile :600px. */
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+
+    .golfia_nav_manu {
+        display: none;
+    }
+
+    .header-top-section {
+        display: none;
+    }
+.hero-title h1 {
+    font-size: 48px;
+}
+.hero-desc p {
+    width: 68%;
+}
+.about-thumb {
+    margin-bottom: 20px;
+}
+.about-counter {
+    margin-bottom: 20px;
+}    
+.section-title h2 {
+	font-size: 24px;
+}
+.text-center.section-title p {
+    width: 70%;
+}  
+.portfolio_nav ul li {
+    padding: 10px 15px;
+}
+.single-counter {
+    margin-bottom: 30px;
+}
+
+.footer-button a {
+    padding: 10px 15px;
+}
+.about2-thumb {
+    margin-bottom: 25px;
+}
+.contact-area {
+    padding: 100px 0 50px;
+}
+.contact-area .section-title h2 {
+    margin-top: 30px;
+}
+.single-Training-box {
+    display: inherit;
+    text-align: center;
+}
+.training-desc p {
+    width: 69%;
+    margin: 0 auto 0;
+}
+.subscribe-text h2 {
+    margin-bottom: 25px;
+}
+.footer-area {
+    text-align: center;
+}
+.about-area {
+    text-align: center;
+}
+.dream-button {
+    margin-bottom: 25px;
+}
+
+
+
+}
+
+/* small mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 599px) {
+
+    .golfia_nav_manu {
+        display: none;
+    }
+
+    .header-top-section {
+        display: none;
+    }
+
+
+
+    /*Progress
+    =================*/
+
+    .progress-section {
+        background-position: center right;
+    }
+
+    .progress-right-content {
+        padding-left: 0;
+    }
+
+    .progress-single-box {
+        width: inherit;
+        position: inherit;
+        margin: 35px 0 20px;
+    }
+
+    .rs-video {
+        left: -110px;
+    }
+.hero-area {
+    height: 550px;
+}
+.hero-title h1 {
+    font-size: 38px;
+    line-height: 32px;
+}
+.hero-desc p {
+    width: 80%;
+}
+.about-thumb {
+    margin-bottom: 20px;
+}
+.about-counter {
+    padding: 26px 71px 16px;
+    margin-top: 0;
+	margin-bottom:20px;
+}
+.text-center.section-title p {
+    width: 100%;
+}
+.section-title h2 {
+    font-size: 22px;
+}
+.portfolio_nav ul li {
+    padding: 10px 8px;
+}
+.course-title h3 {
+    padding: 14px 63px;
+}
+.single-counter {
+    margin-bottom: 20px;
+}
+ 
+.footer-button a {
+    padding: 10px 15px;
+}  
+.about2-thumb {
+    margin-bottom: 20px;
+}
+.contact-area .section-title h2 {
+    margin-top: 30px;
+}
+.contact-area {
+    padding: 100px 0 50px;
+}
+.single-Training-box {
+    display: inherit;
+    text-align: center;
+}
+.training-desc p {
+    width: 69%;
+    margin: 0 auto 0;
+}
+.subscribe-text h2 {
+    margin-bottom: 20px;
+	font-size:26px;
+}
+.footer-area {
+    text-align: center;
+}
+.about-area {
+    text-align: center;
+}
+.footer-desc p {
+    margin: 0 auto 0;
+}
+.dream-button {
+    margin-bottom: 25px;
+}
+.membership-top-title h1 {
+    font-size: 50px;
+}
+}
+
+
+/* small mobile :320px. */
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+
+    .golfia_nav_manu {
+        display: none;
+    }
+
+    .header-top-section {
+        display: none;
+    }
+
+
+
+    /*Progress
+    =================*/
+
+    .progress-section {
+        background-position: center right;
+    }
+
+    .progress-right-content {
+        padding-left: 0;
+    }
+
+    .progress-single-box {
+        width: inherit;
+        position: inherit;
+        margin: 35px 0 20px;
+    }
+
+    .rs-video {
+        left: -110px;
+    }
+
+.hero-area {
+    height: 550px;
+}
+.hero-title h1 {
+    font-size: 30px;
+    line-height: 30px;
+}
+.hero-desc p {
+    width: 96%;
+}
+.service-title h3 {
+    font-size: 22px;
+}
+.about-thumb {
+    margin-bottom: 20px;
+}
+.about-counter {
+    padding: 26px 71px 16px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.about-counter-icon {
+    float: inherit;
+}
+.about-title h4 {
+    font-size: 18px;
+}
+.single-about {
+    display: inherit;
+    text-align: center;
+}
+.text-center.section-title p {
+    width: 100%;
+}
+.section-title h2 {
+    font-size: 14px;
+}
+.text-center.section-title p {
+    width: 100%;
+    font-size: 13px;
+}
+.feature-title h3 {
+    font-size: 16px;
+}
+.meta-blogs span {
+    display: inline-grid;
+}
+.portfolio_nav ul li {
+    padding: 10px 8px;
+}
+.course-title h3 {
+    padding: 5px 63px;
+    font-size: 13px;
+}
+.single-counter {
+    margin-bottom: 20px;
+}
+.author-name h4 {
+    font-size: 12px;
+}
+.author-name p {
+    font-size: 13px;
+}
+.blog-title h4 {
+    font-size: 16px;
+}
+.blog-end span p {
+    margin: 0 4px 0;
+}
+ 
+.footer-content {
+    text-align: center;
+}
+.single-footer {
+    display: inherit;
+}
+.footer-button a {
+    padding: 10px 15px;
+} 
+.about2-thumb {
+    margin-bottom: 18px;
+}
+.contact-area .section-title h2 {
+    margin-top: 30px;
+}
+.contact-area {
+    padding: 100px 0 50px;
+}
+.single-Training-box {
+    display: inherit;
+    text-align: center;
+}
+.training-desc p {
+    width: 95%;
+    margin: 0 auto 0;
+}
+.subscribe-text h2 {
+    margin-bottom: 20px;
+}
+.footer-area {
+    text-align: center;
+}
+.about-area {
+    text-align: center;
+}
+.footer-area .submit-button button {
+    padding: 10px 8px;
+}
+.subscribe-text h2 {
+    font-size: 18px;
+}
+.footer-desc p {
+    margin: 0 auto 0;
+}
+.dream-button {
+    margin-bottom: 25px;
+}
+.training-thumb img {
+    width: 100%;
+}
+.membership-top-title h1 {
+    font-size: 40px;
+}
+.breadcumb-title h1 {
+    font-size: 48px;
+}
+
+
+
+
+}
